@@ -1,37 +1,46 @@
+"use client";
+import { useLanguage } from "@/context/LanguageContext";
 import Link from "next/link";
 
 const EventRegister = () => {
+  const { t } = useLanguage();
   return (
     <section className="max-w-6xl mx-auto pb-10 px-2">
-      <h2 className="text-2xl font-bold px-2 mb-2">
-        Event Details & Registration
-      </h2>
+      <h2 className="text-2xl font-bold px-2 mb-2">{t.event_heading}</h2>
       <div className="rounded-lg shadow-md overflow-hidden bg-yellow-50">
-        <h3 className="text-xl font-bold pl-4 pt-2 mb-4">Details</h3>
+        <h3 className="text-xl font-bold pl-4 pt-2 mb-4">{t.event_details}</h3>
         <div className="px-4 py-4">
           <table className="w-full text-left">
             <tbody className="text-gray-600">
               <tr>
-                <td className="py-2 font-semibold text-gray-500 w-32">Date</td>
-                <td className="py-2">Saturday, May 16, 2026</td>
-              </tr>
-              <tr>
-                <td className="py-2 font-semibold text-gray-500">Time</td>
-                <td className="py-2">11:00 AM onwards</td>
-              </tr>
-              <tr>
-                <td className="py-2 font-semibold text-gray-500">Venue</td>
-                <td className="py-2">
-                  Slochterenweg 29, 6835 CD, Arnhem, Netherlands
+                <td className="py-2 font-semibold text-gray-500 w-32">
+                  {t.event_date_label}
                 </td>
+                <td className="py-2">{t.event_date}</td>
               </tr>
               <tr>
-                <td className="py-2 font-semibold text-gray-500">Entry</td>
-                <td className="py-2">Free (registration recommended)</td>
+                <td className="py-2 font-semibold text-gray-500">
+                  {t.event_time_label}
+                </td>
+                <td className="py-2">{t.event_time}</td>
               </tr>
               <tr>
-                <td className="py-2 font-semibold text-gray-500">Food</td>
-                <td className="py-2">Vegetarian community meal</td>
+                <td className="py-2 font-semibold text-gray-500">
+                  {t.event_venue_label}
+                </td>
+                <td className="py-2">{t.event_venue}</td>
+              </tr>
+              <tr>
+                <td className="py-2 font-semibold text-gray-500">
+                  {t.event_entry_label}
+                </td>
+                <td className="py-2">{t.event_entry}</td>
+              </tr>
+              <tr>
+                <td className="py-2 font-semibold text-gray-500">
+                  {t.event_food_label}
+                </td>
+                <td className="py-2">{t.event_food}</td>
               </tr>
             </tbody>
           </table>
@@ -50,7 +59,7 @@ const EventRegister = () => {
               target="_blank"
               className="block w-full text-center px-4 py-3 bg-blue-950 rounded-lg text-white text-xs md:text-sm font-bold hover:bg-blue-900 transition"
             >
-              I Wish to Join
+              {t.event_cta}
             </Link>
           </div>
         </div>

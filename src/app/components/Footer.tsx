@@ -1,8 +1,11 @@
+"use client";
+import { useLanguage } from "@/context/LanguageContext";
 import Image from "next/image";
 import Link from "next/link";
 import { FaFacebookSquare } from "react-icons/fa";
 import { FaInstagramSquare } from "react-icons/fa";
 const Footer = () => {
+  const { t } = useLanguage();
   return (
     <footer className="border border-gray-50 shadow-sm">
       <div className="flex flex-col md:flex-row px-2 py-2 justify-between md:items-center md:max-w-6xl mx-auto gap-5">
@@ -15,11 +18,11 @@ const Footer = () => {
           />
           <div className="flex flex-col justify-center items-start">
             <p className="font-bold">Utsav 2026</p>
-            <p className="text-sm text-gray-600">Hosted by: Satsang Europe</p>
+            <p className="text-sm text-gray-600">{t.footer_hosted}</p>
           </div>
         </div>
         <div className="flex flex-col md:flex-row md:items-center justify-center gap-3 text-sm text-gray-600">
-          <div className="font-bold">Contact: info@satsangeurope.org</div>
+          <div className="font-bold">{t.footer_contact}</div>
           <div className="flex items-center gap-4">
             <Link
               href="https://www.facebook.com/satsang.europe"
