@@ -27,7 +27,7 @@ const EventRegister = () => {
               </tr>
               <tr>
                 <td className="py-2 font-semibold text-gray-500">Entry</td>
-                <td className="py-2">Free / Donation-based</td>
+                <td className="py-2">Free (registration recommended)</td>
               </tr>
               <tr>
                 <td className="py-2 font-semibold text-gray-500">Food</td>

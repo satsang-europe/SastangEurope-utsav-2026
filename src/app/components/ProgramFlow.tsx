@@ -7,7 +7,7 @@ const ProgramFlow = () => {
       <h2 className="text-2xl font-bold px-2 mb-2">Program details</h2>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4 pb-4">
         <ProgramCard
-          imageLink="/meetAndGreet.PNG"
+          imageLink="/MeetGreet.jpeg"
           imageAlt="Meet and Greet"
           title="Meet And Greet"
           desc="An open and welcoming space to connect and interact with fellow
@@ -15,7 +15,7 @@ const ProgramFlow = () => {
           time="11:00 AM"
         />
         <ProgramCard
-          imageLink="/lampLighting.PNG"
+          imageLink="/LampLighting.jpeg"
           imageAlt="Lamp Lighting"
           title="Inauguration with Lamp lighting"
           desc="Inauguration of the event with the symbolic gesture of lamp lighting
@@ -23,14 +23,14 @@ const ProgramFlow = () => {
           time="11:30 AM"
         />
         <ProgramCard
-          imageLink="/discussion.PNG"
+          imageLink="/Discussion.jpeg"
           imageAlt="Open Discussion"
           title="Open discussion Forum: From Me to We - A journey beyond Self"
           desc="Respectful participation with sharing thoughts and ideas with fellow participants about newer ways of collaboration to serve and grow together as a community/society."
           time="11:45 AM"
         />
         <ProgramCard
-          imageLink="/lunch.png"
+          imageLink="/Lunch.jpeg"
           imageAlt="Lunch"
           title="Lunch"
           desc="Simple warm, freshly made vegetarian meal served with care. 'Good food tastes better together..'"
@@ -40,7 +40,7 @@ const ProgramFlow = () => {
       <div className="rounded-lg shadow-md overflow-hidden h-120 md:h-80 bg-yellow-50 mt-2">
         <div className="relative w-full h-[66%]">
           <Image
-            src="/Immersive.PNG"
+            src="/Immersive.jpeg"
             alt="Immersive Expression"
             fill
             className="object-cover"

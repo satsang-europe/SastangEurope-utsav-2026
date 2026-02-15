@@ -11,8 +11,7 @@ const HeroSection = () => {
         </div>
         <div className="px-3">
           <h1 className="text-2xl font-bold">
-            Coming together in gratitude for every act of service, every life
-            touched, and the love that fuels our journey forward.
+            Celebrating shared love, service, and support...
           </h1>
           <p className="pt-2 text-gray-600">
             Connect. Celebrate. Share ideas. Spark conversations that open new
@@ -47,13 +46,7 @@ const HeroSection = () => {
           </p>
         </div>
       </div>
-      <div className="relative bg-[url('/LifeOfTree.PNG')] bg-cover bg-center bg-no-repeat shadow-lg rounded-xl min-h-62.5 mt-5 md:mt-0">
-        <div className="absolute inset-0 bg-black/40 rounded-xl"></div>
-        <p className="[text-shadow:-1px_-1px_0_black,1px_-1px_0_black,-1px_1px_0_black,1px_1px_0_black] absolute px-3 bottom-2 font-extrabold text-white tracking-[0.05em] text-lg">
-          Meet & Greet • Inauguration with Lamp lighting • Open discussion Forum
-          • Lunch • Immersive Expression
-        </p>
-      </div>
+      <div className="relative bg-[url('/LifeTree.jpeg')] bg-cover bg-center bg-no-repeat shadow-lg rounded-xl min-h-62.5 mt-5 md:mt-0"></div>
     </div>
   );
 };

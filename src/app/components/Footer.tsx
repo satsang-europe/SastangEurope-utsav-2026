@@ -19,7 +19,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="flex flex-col md:flex-row md:items-center justify-center gap-3 text-sm text-gray-600">
-          <div className="font-bold">Contact: info@example.org</div>
+          <div className="font-bold">Contact: info@satsangeurope.org</div>
           <div className="flex items-center gap-4">
             <Link
               href="https://www.facebook.com/satsang.europe"
