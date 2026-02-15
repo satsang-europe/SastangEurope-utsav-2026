@@ -7,12 +7,12 @@ const nl = {
 
   // Hero
   hero_badge: "UTSAV 2026 • Arnhem, Nederland",
-  hero_heading: "Gedeelde liefde, dienstbaarheid en steun vieren…",
+  hero_heading: "Het vieren van gedeelde liefde, dienstbaarheid en steun...",
   hero_p1:
-    "Verbinden. Vieren. Ideeën delen. Gesprekken aanwakkeren die nieuwe wegen openen.",
+    "Verbind. Vier. Deel ideeën. Ontsteek gesprekken die nieuwe wegen openen.",
   hero_p2:
-    "Geniet van opbeurende muziek, hartelijke momenten en een soulvolle vegetarische maaltijd met warmte en zorg geserveerd.",
-  hero_cta: "Ik wil meedoen",
+    "Geniet van inspirerende muziek, hartverwarmende momenten en een vegetarische maaltijd met zorg en warmte bereid.",
+  hero_cta: "Ik wil deelnemen",
   hero_date: "🗓️ 16 mei 2026",
   hero_time: "🕦 11:00",
   hero_location: "📍 Slochterenweg 29, Arnhem",
@@ -22,24 +22,24 @@ const nl = {
   program_heading: "Programmaonderdelen",
   program1_title: "Ontmoeting & Kennismaking",
   program1_desc:
-    "Een open en verwelkomende ruimte om contact te leggen met andere deelnemers, organisatoren en sprekers.",
+    "Een open en gastvrije ruimte om in contact te komen en te praten met medebezoekers, organisatoren en sprekers.",
   program1_time: "11:00",
-  program2_title: "Opening met lampaansteking",
+  program2_title: "Inwijding met lampceremonie",
   program2_desc:
-    "Opening van het evenement met het symbolische gebaar van lampaansteking, wat een voorspoedig begin betekent.",
+    "Officiële opening van het evenement met het symbolische aansteken van de lamp, wat een veelbelovend begin symboliseert.",
   program2_time: "11:30",
   program3_title:
     "Open discussieforum: Van Ik naar Wij – Een reis voorbij het Zelf",
   program3_desc:
-    "Respectvolle deelname met het delen van gedachten en ideeën met andere deelnemers over nieuwe manieren van samenwerking om samen te dienen en te groeien als gemeenschap.",
+    "Respectvolle deelname waarbij gedachten en ideeën worden gedeeld over nieuwe manieren van samenwerking om samen te dienen en te groeien als gemeenschap/samenleving.",
   program3_time: "11:45",
   program4_title: "Lunch",
   program4_desc:
-    "Eenvoudige warme, vers bereide vegetarische maaltijd met zorg geserveerd. 'Goed eten smaakt beter samen..'",
+    "Eenvoudige, warme en vers bereide vegetarische maaltijd met zorg geserveerd. “Goed eten smaakt beter samen.”",
   program4_time: "12:30",
   immersive_title: "Een meeslepende ervaring",
   immersive_desc:
-    "Dompel uzelf onder in een audiovisuele reis van Satsang Europe en de oprichter Sree Sree Thakur Anukulchandra Chakravarty",
+    "Dompel jezelf onder in een audiovisuele reis van Satsang Europe en zijn grondlegger Sree Sree Thakur Anukulchandra Chakravarty.",
 
   // Event Details
   event_heading: "Evenementdetails & Registratie",
@@ -54,7 +54,7 @@ const nl = {
   event_entry: "Gratis (registratie aanbevolen)",
   event_food_label: "Eten",
   event_food: "Vegetarische gemeenschapsmaaltijd",
-  event_cta: "Ik wil meedoen",
+  event_cta: "Ik wil deelnemen",
 
   // Footer
   footer_hosted: "Georganiseerd door: Satsang Europe",
