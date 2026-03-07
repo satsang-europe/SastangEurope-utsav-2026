@@ -19,7 +19,7 @@ const HeroSection = () => {
         </div>
         <div className="px-3 py-6">
           <Link
-            href="https://docs.google.com/forms/d/e/1FAIpQLSe1TNogr0bb2_JD56H91wRCJfW8lYGOjJWpkS_bNyLabP6ahw/viewform?usp=dialog"
+            href="https://forms.gle/62F3vZ8ARokjCnCT6"
             target="_blank"
             className="px-4 py-3 bg-blue-950 rounded-lg text-white text-xs md:text-sm font-bold hover:bg-blue-900 transition"
           >

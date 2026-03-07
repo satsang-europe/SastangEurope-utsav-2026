@@ -3,7 +3,7 @@ const nl = {
   nav_title: "Utsav 2026",
   nav_subtitle: "Samen vieren…",
   nav_org: "Satsang Europe",
-  nav_cta: "Ik wil meedoen",
+  nav_cta: "Ik wil deelnemen",
 
   // Hero
   hero_badge: "UTSAV 2026 • Arnhem, Nederland",
