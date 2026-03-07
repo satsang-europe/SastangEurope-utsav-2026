@@ -36,7 +36,7 @@ const en = {
   program4_title: "Lunch",
   program4_desc:
     "Simple warm, freshly made vegetarian meal served with care. 'Good food tastes better together..'",
-  program4_time: "12:30 AM",
+  program4_time: "12:30 PM",
   immersive_title: "An immersive experience",
   immersive_desc:
     "Immerse yourself into an audio visual journey of Satsang Europe and its founder Sree Sree Thakur Anukulchandra Chakravarty",
