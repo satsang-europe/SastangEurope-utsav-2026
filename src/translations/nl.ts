@@ -14,7 +14,7 @@ const nl = {
     "Geniet van inspirerende muziek, hartverwarmende momenten en een vegetarische maaltijd met zorg en warmte bereid.",
   hero_cta: "Ik wil deelnemen",
   hero_date: "🗓️ 16 mei 2026",
-  hero_time: "🕦 11:00",
+  hero_time: "🕦 11:00 uur",
   hero_location: "📍 Slochterenweg 29, Arnhem",
   hero_food: "🥗 Vegetarisch",
 
@@ -23,20 +23,20 @@ const nl = {
   program1_title: "Ontmoeting & Kennismaking",
   program1_desc:
     "Een open en gastvrije ruimte om in contact te komen en te praten met medebezoekers, organisatoren en sprekers.",
-  program1_time: "11:00",
+  program1_time: "11:00 uur",
   program2_title: "Inwijding met lampceremonie",
   program2_desc:
     "Officiële opening van het evenement met het symbolische aansteken van de lamp, wat een veelbelovend begin symboliseert.",
-  program2_time: "11:30",
+  program2_time: "11:30 uur",
   program3_title:
     "Open discussieforum: Van Ik naar Wij – Een reis voorbij het Zelf",
   program3_desc:
     "Respectvolle deelname waarbij gedachten en ideeën worden gedeeld over nieuwe manieren van samenwerking om samen te dienen en te groeien als gemeenschap/samenleving.",
-  program3_time: "11:45",
+  program3_time: "11:45 uur",
   program4_title: "Lunch",
   program4_desc:
     "Eenvoudige, warme en vers bereide vegetarische maaltijd met zorg geserveerd. “Goed eten smaakt beter samen.”",
-  program4_time: "12:30",
+  program4_time: "12:30 uur",
   immersive_title: "Een meeslepende ervaring",
   immersive_desc:
     "Dompel jezelf onder in een audiovisuele reis van Satsang Europe en zijn grondlegger Sree Sree Thakur Anukulchandra Chakravarty.",
